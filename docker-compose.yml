@@ -1,0 +1,12 @@
+version: "3"
+services:
+  app:
+    build: .
+    # command: echo "hello world"
+    volumes:
+      - .:/app
+    ports:
+      - 3000:3000
+      - 9229:9229
+    tty: true
+    privileged: true

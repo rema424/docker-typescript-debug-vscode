@@ -23,6 +23,7 @@ git push -u origin master
 touch docker-compose.yml
 touch Dockerfile
 touch .dockerignore
+npm init
 docker-compose build
 docker-compose run app npm --version
 docker-compose down
@@ -38,6 +39,7 @@ docker-compose down
 
 [[Node.js] Express を TypeScript で書く - 環境整備まで](https://qiita.com/kuroneko8960/items/74347b6a58020f33b18d)
 [Get started Express + TypeScript する](https://qiita.com/IgnorantCoder/items/c9b79dbab8c1a34b769f)
+[TypeScript で Node.js の express を使って Hello world してみる](https://oinume.hatenablog.com/entry/using-express-with-typescript)
 
 ```
 
